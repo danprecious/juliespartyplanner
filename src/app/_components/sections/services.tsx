@@ -9,9 +9,9 @@ const Services = () => {
       id: 0,
       title: "Catering & Culinary Art",
       images: [
-        "gourmet-plated-dish.jpg",
-        "buffet-catering-display.jpg",
-        "chef-in-action.jpg",
+        "v1754612627/anton-rybakov-oT4ZgWJP5cA-unsplash_bhw7qy.jpg",
+        "v1754612495/julia-blumberg-ODdw4F6ajpU-unsplash_ilyegn.jpg.jpg",
+        "v1754612383/chuttersnap-kgIMnUlv0Mw-unsplash_kuolxl.jpg.jpg",
       ],
       description:
         "Delight your guests with an unforgettable culinary experience. From artfully plated entrées to custom menus, our chefs blend creativity and flavor to match your event’s style and spirit.",
@@ -20,9 +20,9 @@ const Services = () => {
       id: 1,
       title: "Floral Design",
       images: [
-        "grand-floral-centerpiece.jpg",
-        "bouquet-arrangement.jpg",
-        "ceremony-floral-arch.jpg",
+        "v1754612499/melody-zimmerman-nf0zABigc8s-unsplash_bqfnhe.jpg.jpg",
+        "v1754612576/oxana-melis-X_7Qb2Tg_6g-unsplash_zscmgj.jpg.jpg",
+        "v1754612545/aida-batres-_QxzSVWesm0-unsplash_srmhqn.jpg.jpg",
       ],
       description:
         "Every arrangement is a work of art. Our in-house floral team designs striking, seasonal pieces that transform any space — from grand centerpieces to delicate aisle florals.",
@@ -31,9 +31,9 @@ const Services = () => {
       id: 2,
       title: "Event Production",
       images: [
-        "event-lighting-design.jpg",
-        "stage-decor-and-sound.jpg",
-        "event-setup-team.jpg",
+        "v1754612438/sam-moghadam-d1svyyw_9-s-unsplash_bn60ki.jpg.jpg",
+        "v1754612383/montylov-3LM_c8LY16o-unsplash_dwagj8.jpg.jpg",
+        "v1754612718/pablo-heimplatz-ZODcBkEohk8-unsplash_tt754u.jpg.jpg",
       ],
       description:
         "From lighting to layout, we produce immersive experiences that wow your guests. Our team handles every detail to ensure flawless execution, no matter your vision.",
@@ -42,9 +42,9 @@ const Services = () => {
       id: 3,
       title: "Furniture & Rentals",
       images: [
-        "luxury-table-setting.jpg",
-        "gold-event-chairs.jpg",
-        "event-rentals-setup.jpg",
+        "v1754612646/kevin-yudhistira-alloni-oRC-Yq2fGAk-unsplash_jnitfv.jpg.jpg",
+        "v1754612454/yan-lee-1Zwn-yYMYZE-unsplash_wv0kwj.jpg.jpg",
+        "v1754612782/janay-peters-OGtDgKzMwJU-unsplash_qndaxa.jpg.jpg",
       ],
       description:
         "From elegant tablescapes to stylish seating, our rental collections elevate your event’s design. Choose from a curated selection of premium furniture, linens, and accessories.",
@@ -53,8 +53,8 @@ const Services = () => {
       id: 4,
       title: "Event Planning",
       images: [
-        "event-planner-meeting.jpg",
-        "timeline-checklist.jpg",
+        "v1754612800/evangeline-shaw-xRlI-L-kvrw-unsplash_bk3qj9.jpg.jpg",
+        "v1754612416/alejandro-escamilla-BbQLHCpVUqA-unsplash_um98zc.jpg.jpg",
         "planner-directing-staff.jpg",
       ],
       description:
