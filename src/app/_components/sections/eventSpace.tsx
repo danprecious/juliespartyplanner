@@ -1,6 +1,7 @@
 import cloudinaryLoader from "@/app/lib/cloudinary";
 import { images } from "@/app/utils/images";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const EventSpace = () => {
@@ -91,7 +92,9 @@ const EventSpace = () => {
                     orientation === "inverted" ? "flex lg:justify-end" : ""
                   } w-full`}
                 >
-                  <button className="button">Book Location</button>
+                  <Link href="/booking" className="button">
+                    Book Location
+                  </Link>
                 </div>
               </div>
               <div className="lg:w-[35%] w-full min-h-[25em] overflow-hidden lg:h-full bg-stone-500">

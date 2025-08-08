@@ -10,8 +10,8 @@ const Services = () => {
       title: "Catering & Culinary Art",
       images: [
         "v1754612627/anton-rybakov-oT4ZgWJP5cA-unsplash_bhw7qy.jpg",
-        "v1754612495/julia-blumberg-ODdw4F6ajpU-unsplash_ilyegn.jpg.jpg",
-        "v1754612383/chuttersnap-kgIMnUlv0Mw-unsplash_kuolxl.jpg.jpg",
+        "v1754612495/julia-blumberg-ODdw4F6ajpU-unsplash_ilyegn.jpg",
+        "v1754612383/chuttersnap-kgIMnUlv0Mw-unsplash_kuolxl.jpg",
       ],
       description:
         "Delight your guests with an unforgettable culinary experience. From artfully plated entrées to custom menus, our chefs blend creativity and flavor to match your event’s style and spirit.",
@@ -20,9 +20,9 @@ const Services = () => {
       id: 1,
       title: "Floral Design",
       images: [
-        "v1754612499/melody-zimmerman-nf0zABigc8s-unsplash_bqfnhe.jpg.jpg",
-        "v1754612576/oxana-melis-X_7Qb2Tg_6g-unsplash_zscmgj.jpg.jpg",
-        "v1754612545/aida-batres-_QxzSVWesm0-unsplash_srmhqn.jpg.jpg",
+        "v1754612499/melody-zimmerman-nf0zABigc8s-unsplash_bqfnhe.jpg",
+        "v1754612576/oxana-melis-X_7Qb2Tg_6g-unsplash_zscmgj.jpg",
+        "v1754612545/aida-batres-_QxzSVWesm0-unsplash_srmhqn.jpg",
       ],
       description:
         "Every arrangement is a work of art. Our in-house floral team designs striking, seasonal pieces that transform any space — from grand centerpieces to delicate aisle florals.",
@@ -31,9 +31,9 @@ const Services = () => {
       id: 2,
       title: "Event Production",
       images: [
-        "v1754612438/sam-moghadam-d1svyyw_9-s-unsplash_bn60ki.jpg.jpg",
-        "v1754612383/montylov-3LM_c8LY16o-unsplash_dwagj8.jpg.jpg",
-        "v1754612718/pablo-heimplatz-ZODcBkEohk8-unsplash_tt754u.jpg.jpg",
+        "v1754612438/sam-moghadam-d1svyyw_9-s-unsplash_bn60ki.jpg",
+        "v1754612383/montylov-3LM_c8LY16o-unsplash_dwagj8.jpg",
+        "v1754612718/pablo-heimplatz-ZODcBkEohk8-unsplash_tt754u.jpg",
       ],
       description:
         "From lighting to layout, we produce immersive experiences that wow your guests. Our team handles every detail to ensure flawless execution, no matter your vision.",
@@ -42,9 +42,9 @@ const Services = () => {
       id: 3,
       title: "Furniture & Rentals",
       images: [
-        "v1754612646/kevin-yudhistira-alloni-oRC-Yq2fGAk-unsplash_jnitfv.jpg.jpg",
-        "v1754612454/yan-lee-1Zwn-yYMYZE-unsplash_wv0kwj.jpg.jpg",
-        "v1754612782/janay-peters-OGtDgKzMwJU-unsplash_qndaxa.jpg.jpg",
+        "v1754612646/kevin-yudhistira-alloni-oRC-Yq2fGAk-unsplash_jnitfv.jpg",
+        "v1754612454/yan-lee-1Zwn-yYMYZE-unsplash_wv0kwj.jpg",
+        "v1754612782/janay-peters-OGtDgKzMwJU-unsplash_qndaxa.jpg",
       ],
       description:
         "From elegant tablescapes to stylish seating, our rental collections elevate your event’s design. Choose from a curated selection of premium furniture, linens, and accessories.",
@@ -53,9 +53,9 @@ const Services = () => {
       id: 4,
       title: "Event Planning",
       images: [
-        "v1754612800/evangeline-shaw-xRlI-L-kvrw-unsplash_bk3qj9.jpg.jpg",
-        "v1754612416/alejandro-escamilla-BbQLHCpVUqA-unsplash_um98zc.jpg.jpg",
-        "planner-directing-staff.jpg",
+        "v1754612800/evangeline-shaw-xRlI-L-kvrw-unsplash_bk3qj9.jpg",
+        "v1754612416/alejandro-escamilla-BbQLHCpVUqA-unsplash_um98zc.jpg",
+        "v1754612390/marissa-grootes-N9uOrBICcjY-unsplash_nxhlak.jpg",
       ],
       description:
         "Relax and enjoy your day — we’ve got everything covered. Our seasoned planners coordinate timelines, vendors, and execution to deliver a seamless experience from start to finish.",
