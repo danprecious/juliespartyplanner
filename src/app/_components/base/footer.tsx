@@ -16,10 +16,12 @@ const Footer = () => {
       </div>
 
       <div className="text-center">
-        <p>Copyright 2025, JuliePartyPlanner</p>
         <div className="py-5">
-          <strong></strong>
+          <strong>JULIE PARTY PLANNER & CONSULT LLC
+4854 OLD NATIONAL HWY STE 201
+COLLEGE PARK, GA 30337-6943</strong>
         </div>
+        <p>Copyright 2025, JuliePartyPlanner</p>
       </div>
     </footer>
   );
