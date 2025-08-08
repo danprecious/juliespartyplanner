@@ -13,7 +13,7 @@ const navLinks = [
   {
     id: 1,
     title: "GALLERY",
-    href: "#gallery",
+    href: "/#gallery",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const navLinks = [
 const Header = () => {
   return (
     <header
-      className={`flex justify-center items-center lg:py-8 py-3 lg:px-10 px-3 sticky top-0 backdrop-blur-md bg-white/50 z-60  font-bold`}
+      className={`flex justify-center items-center lg:py-8 py-0 lg:px-10 px-3 sticky top-0 backdrop-blur-md bg-white/50 z-60  font-bold`}
     >
       <nav className="lg:w-[75%] text-sm font-light lg:flex justify-between items-center hidden">
         <div className="flex justify-between w-[35%] text-sm font-">
@@ -81,11 +81,16 @@ const MobileMenu = () => {
 
   return (
     <div className="">
-      <div className="flex justify-center items-center">
+      <div className="relative flex items-center justify-center py-4">
+        <div className="absolute left-4 top-1/2 -translate-y-1/2">
+          {/* Optional: placeholder to balance layout */}
+        </div>
+
         <Logo size={100} />
+
         <button
           onClick={() => setNavOpen(!navOpen)}
-          className="text-2xl self-end place-self-end"
+          className="absolute right-4 top-1/2 -translate-y-1/2 text-2xl"
         >
           ☰
         </button>
@@ -98,6 +103,7 @@ const MobileMenu = () => {
                 <Link
                   href={link.href}
                   className="block py-2 px-4 hover:bg-gray-200"
+                  onClick={() => setNavOpen(false)} // 👈 Close nav
                 >
                   {link.title}
                 </Link>

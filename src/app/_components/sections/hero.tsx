@@ -2,8 +2,7 @@ import cloudinaryLoader from "@/app/lib/cloudinary";
 import Image from "next/image";
 
 const Hero = () => {
-  const herosrc =
-    "https://res.cloudinary.com/dv7vjs0s0/image/upload/f_auto,q_auto,w_800/v1754448341/meg-jenson-_cp0vEyJb_Q-unsplash_xky98a.jpg";
+  const herosrc = "v1754448341/meg-jenson-_cp0vEyJb_Q-unsplash_xky98a.jpg";
   const localsrc = "/images/hero.jpg";
 
   return (
@@ -33,7 +32,7 @@ const Hero = () => {
           width={1000}
           height={1000}
           className="object-cover w-full h-full"
-          unoptimized
+          // unoptimized
         />
       </div>
     </section>

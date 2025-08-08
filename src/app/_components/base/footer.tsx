@@ -16,9 +16,9 @@ const Footer = () => {
       </div>
 
       <div className="text-center">
-        <p>Copyright 2025, Dan Precious</p>
+        <p>Copyright 2025, JuliePartyPlanner</p>
         <div className="py-5">
-          <strong>Built with Love and Anger, lol</strong>
+          <strong></strong>
         </div>
       </div>
     </footer>

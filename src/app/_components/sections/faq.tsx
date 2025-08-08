@@ -8,6 +8,8 @@ import { FaMinus, FaPlus } from "react-icons/fa6";
 const Faq = () => {
   const [active, setActive] = useState(0);
 
+  const herosrc = "v1754448341/meg-jenson-_cp0vEyJb_Q-unsplash_xky98a.jpg";
+
   const faqs = [
     {
       id: 0,
@@ -70,29 +72,28 @@ const Faq = () => {
   };
 
   return (
-    <section className="w-full lg:flex item-start  py-[10em] scroll-smooth  relative min-h-[90vh]  text-background">
-      <div className="bg-black opacity-90 z-5 absolute h-full w-full"></div>
-      <div className="absolute w-full h-full overflow-hidden">
+    <section className="w-full lg:flex item-start overflow-hidden  lg:py-[10em] py-8 scroll-smooth relative min-h-[90vh]  text-white">
+      <div className="bg-black opacity-90 z-1 top-0  absolute h-full w-full"></div>
+      <div className="absolute w-full h-full top-0 overflow-hidden">
         <Image
           loader={cloudinaryLoader}
-          src="images/hero.jpg"
+          src={herosrc}
           alt="Party, event, image"
           width={1000}
           height={1000}
           className="object-cover w-full h-full"
-          unoptimized
         />
       </div>
 
-      <div className="lg:sticky top-48 mb-10 lg:w-[40%] h-fit lg:px-10 px-3 z-10 pt-20">
-        <h1 className="lg:text-[4rem] text-[2rem] font-bold">FAQ</h1>
+      <div className="lg:sticky lg:top-48  mb-10 lg:w-[40%] flex h-fit lg:px-10 px-5 z-50 lg:pt-20">
+        <h1 className="lg:text-[4rem] text-[2rem] font-bold z-50">FAQ</h1>
       </div>
-      <div className="flex-col flex lg:w-[60%] lg:px-10 px-3 z-10 pt-20">
+      <div className="flex-col flex lg:w-[60%] lg:px-10 px-5 z-50 lg:pt-20">
         {faqs.map(({ id, question, content }) => {
           return (
             <div
               key={id}
-              className="pb-10 pt-4 mb-12 border-b-[2px] border-solid border-background/20"
+              className="pb-10 pt-4 mb-12 border-b-[2px] px- border-solid border-background/20 z-50"
             >
               <div className="flex justify-between items-center">
                 <h3
@@ -111,7 +112,7 @@ const Faq = () => {
               <div
                 className={`${
                   active == id ? "flex" : "hidden"
-                }  text-background/50 text-[1.1rem] w-[70%] mt-7`}
+                }  text-white text-[1.1rem] w-[70%] mt-7`}
               >
                 {content}
               </div>

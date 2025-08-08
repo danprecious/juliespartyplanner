@@ -1,3 +1,6 @@
+import cloudinaryLoader from "@/app/lib/cloudinary";
+import { images } from "@/app/utils/images";
+import Image from "next/image";
 import React from "react";
 
 const EventSpace = () => {
@@ -49,7 +52,10 @@ const EventSpace = () => {
   ];
 
   return (
-    <section className="w-full flex flex-col items-center justify-center mb-20">
+    <section
+      className="w-full flex flex-col items-center justify-center mb-20"
+      id="event-space"
+    >
       {spaces.map(
         ({
           id,
@@ -67,10 +73,10 @@ const EventSpace = () => {
                 ${
                   orientation === "inverted"
                     ? "lg:flex-row-reverse "
-                    : "lg:flex-row flex-col-reverse "
-                } flex  justify-between w-[80%] h-[70vh] mb-[15em] text-justify`}
+                    : "lg:flex-col-reverse "
+                } flex flex-col lg:flex-row justify-between lg:w-[80%] w-[90%] lg:h-[70vh] mb-[5em] lg:mb-[15em] text-justify`}
             >
-              <div className="w-[50%] flex flex-col lg:px-8 lg:py-12 p-3 mb-6 ">
+              <div className="lg:w-[50%] flex w-full flex-col lg:px-8 lg:py-12 p-3 mb-6 ">
                 <div className=" mb-6">
                   <h2 className="lg:text-[2rem] font-semibold mb-4">{title}</h2>
                   <p className="">{description}</p>
@@ -82,13 +88,23 @@ const EventSpace = () => {
 
                 <div
                   className={`${
-                    orientation === "inverted" ? "flex justify-end" : ""
+                    orientation === "inverted" ? "flex lg:justify-end" : ""
                   } w-full`}
                 >
                   <button className="button">Book Location</button>
                 </div>
               </div>
-              <div className="w-[35%] bg-stone-500">{/* <Image /> */}</div>
+              <div className="lg:w-[35%] w-full min-h-[25em] overflow-hidden lg:h-full bg-stone-500">
+                <Image
+                  loader={cloudinaryLoader}
+                  src={images.eventSpace[id]}
+                  alt="Party, event, image"
+                  width={1000}
+                  height={1000}
+                  className="object-cover w-full h-full"
+                  // unoptimized
+                />
+              </div>
             </div>
           );
         }

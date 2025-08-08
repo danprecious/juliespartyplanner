@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { LogoImage } from "../base/logo";
+import cloudinaryLoader from "@/app/lib/cloudinary";
 
 const Services = () => {
   const services = [
@@ -62,30 +63,36 @@ const Services = () => {
   ];
 
   return (
-    <section className="flex flex-col w-full items-center">
+    <section className="flex flex-col w-full items-center" id="services">
       {services.map(({ id, title, images, description }) => {
         return (
           <div
             key={id}
-            className="flex flex-col items-center justify-center mb-[12em] w-[80%]"
+            className="flex flex-col items-center justify-center mb-[12em] lg:w-[80%] w-full px-4"
           >
             <div className="flex justify-center opacity-">
               <LogoImage />
             </div>
-            <h2 className="text-[2rem] mb-8">{title}</h2>
-            <div className="flex justify-between w-full mb-6">
+            <h2 className="text-[2rem] mb-8 text-center">{title}</h2>
+            <div className="flex justify-between lg:flex-row flex-col w-full mb-6">
               {images.map((image, index) => (
-                <div key={index} className="w-full mx-2 h-[50vh] bg-stone-400">
-                  {/* <Image
+                <div
+                  key={index}
+                  className="w-full lg:mx-2 h-[50vh] bg-stone-400 lg:mb-0 mb-4"
+                >
+                  <Image
+                    loader={cloudinaryLoader}
                     src={image}
+                    alt="Party, event, image"
                     width={1000}
                     height={1000}
-                    alt="service-image"
-                  /> */}
+                    className="object-cover w-full h-full"
+                    // unoptimized
+                  />
                 </div>
               ))}
             </div>
-            <p className="w-[50%] text-center">{description}</p>
+            <p className="lg:w-[50%] text-center">{description}</p>
           </div>
         );
       })}

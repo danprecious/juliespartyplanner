@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Courier_Prime } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/base/header";
 import Footer from "./_components/base/footer";
+import { ToastProvider } from "./_components/sections/toasters";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,13 +15,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
-
-
-
 export const metadata: Metadata = {
   title: "JuliePartyPlanner",
-  description: "Event Planner, Party events, Birthday Events, Event Management,",
+  description:
+    "Event Planner, Party events, Birthday Events, Event Management,",
 };
 
 export default function RootLayout({
@@ -33,9 +31,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <ToastProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ToastProvider>
       </body>
     </html>
   );

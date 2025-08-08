@@ -73,3 +73,7 @@ body {
 .button {
   @apply px-10 py-3 rounded-[.5em] bg-foreground/80 my-5 text-background;
 }
+
+.toasters {
+  @apply absolute top-0 m-auto px-8 py-4 rounded-md bg-background border-solid border-b-4 border-[2px] border-foreground/60 text-foreground w-[50%] flex text-center;
+}
