@@ -5,7 +5,7 @@ import { LogoImage } from "./logo";
 
 const Footer = () => {
   return (
-    <footer className="pt-[10em] overflow-hidden justify-end flex items-center flex-col">
+    <footer className="pt-[10em] overflow-hidden justify-end flex items-center flex-col pb-5">
       <div className="relative">
         <div className="flex justify-center opacity-40">
           <LogoImage />
@@ -17,9 +17,10 @@ const Footer = () => {
 
       <div className="text-center">
         <div className="py-5">
-          <strong>JULIE PARTY PLANNER & CONSULT LLC
-4854 OLD NATIONAL HWY STE 201
-COLLEGE PARK, GA 30337-6943</strong>
+          <strong>
+            JULIE PARTY PLANNER & CONSULT LLC 4854 OLD NATIONAL HWY STE 201
+            COLLEGE PARK, GA 30337-6943
+          </strong>
         </div>
         <p>Copyright 2025, JuliePartyPlanner</p>
       </div>

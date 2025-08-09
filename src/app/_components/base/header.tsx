@@ -28,7 +28,7 @@ const navLinks = [
   {
     id: 4,
     title: "BOOKINGS",
-    href: "/bookings",
+    href: "/booking",
   },
   {
     id: 5,
