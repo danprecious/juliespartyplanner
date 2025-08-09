@@ -24,41 +24,41 @@ const products = {
   "Small Chops": [
     {
       title: "Spring Rolls",
-      price: 5,
+      price: 220,
       image: "v1754738828/sj-VeK39ynd3Ac-unsplash_ta37fx.jpg",
     },
     {
       title: "Samosas",
-      price: 6,
+      price: 235,
       image: "v1754737479/kabir-cheema-8T9AVksyt7s-unsplash_naenew.jpg",
     },
     {
       title: "Puff Puff",
-      price: 3,
+      price: 210,
       image: "v1754737406/keesha-s-kitchen-KM9s3CNUguc-unsplash_nlu0x5.jpg",
     },
   ],
   Desserts: [
     {
       title: "Chocolate Mousse",
-      price: 10,
+      price: 260,
       image: "v1754737409/ana-azevedo-Jb7Q7FISznQ-unsplash_lgrvpq.jpg",
     },
     {
       title: "Fruit Tart",
-      price: 8,
+      price: 245,
       image: "v1754737410/crystal-jo-YbVyjucGKXU-unsplash_nuslxk.jpg",
     },
   ],
   Cakes: [
     {
       title: "Vanilla Cake",
-      price: 20,
+      price: 240,
       image: "v1754737436/joyful-CHSJv7hRXW8-unsplash_k9wqse.jpg",
     },
     {
       title: "Chocolate Cake",
-      price: 22,
+      price: 250,
       image: "v1754737406/jacob-thomas-6jHpcBPw7i8-unsplash_lzlugm.jpg",
     },
   ],
